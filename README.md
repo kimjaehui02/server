@@ -27,9 +27,9 @@
 
 ## 6. 기능별 코드 구현
 
-<details>
-2. 멀티스레드 코드
-</details>
+
+
+
 
 <details>
 
@@ -68,19 +68,17 @@ void socketCommunication() {
     closesocket(sock);
     WSACleanup();
 }
+```
 </details>
 
 <details>
-2. 멀티스레드 코드
-</details>
 
-2. 멀티스레드 코드
-
-<details>
-```c
 <summary>멀티스레드 코드</summary>
 
+```c
+
 #include <pthread.h>
+
 #include <stdio.h>
 
 void* threadFunction(void* arg) {
@@ -104,4 +102,6 @@ void multiThreading() {
     }
 }
 
+```
 </details>
+
