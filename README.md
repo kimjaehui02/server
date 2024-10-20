@@ -28,6 +28,10 @@
 ## 6. 기능별 코드 구현
 
 <details>
+2. 멀티스레드 코드
+</details>
+
+<details>
 
 <summary>소켓 통신 코드</summary>
 
